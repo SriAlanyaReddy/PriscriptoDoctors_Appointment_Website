@@ -63,7 +63,7 @@ doctor-appointment-website/
 
 ### 1️⃣ Backend Setup
 
-```bash
+
 cd backend
 npm install
 npm run server
