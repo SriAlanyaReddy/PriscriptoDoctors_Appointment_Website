@@ -3,25 +3,58 @@ import { assets } from '../assets/assets_frontend/assets'
 
 const Contact = () => {
   return (
-    <div>
-      <div className='text-center text-2xl pt-10 text-gray-500'>
-        <p>CONTACT <span className='text-gray-700 font-semibold'>US</span></p>
+    <div className='px-6 sm:px-16 py-10'>
+      <div className='text-center text-3xl font-semibold text-gray-700 mb-4'>
+        Need Help? <span className='text-primary'>Reach a Doctor</span>
       </div>
 
-      <div className='my-10 flex flex-col justify-center md:flex-row gap-10 mb-28 text-sm'>
-        <img className='w-full md:max-w-[360px]' src={assets.contact_image} alt="" />
+      <div className='grid md:grid-cols-2 gap-12 items-center mt-10'>
 
-        <div className='flex flex-col justify-center items-start gap-6'>
-          <p className='font-semibold text-lg text-gray-600'>Our OFFICE</p>
-          <p className='text-gray-500'>54709 Willms Station <br /> Suite 350, Washington, USA</p>
-          <p className='text-gray-500'>Tel: (415) 555 0132 <br /> Email: sadikahmetaydin@gmail.com</p>
-          <p className='font-semibold text-lg text-gray-600'>Careers at PRESCRIPTO</p>
-          <p className='text-gray-500'>Learn more about our teams and job openings.</p>
+        {/* Left Image or Illustration */}
+        <img
+          className='w-full max-w-md mx-auto'
+          src={assets.contact_image}
+          alt='Get Help Illustration'
+        />
 
-          <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500'>Explore Jobs</button>
+        {/* Right Content */}
+        <div className='flex flex-col gap-6 text-gray-600'>
+          <p className='text-lg'>
+            We're here to help. If you need urgent medical attention, prescription assistance, or
+            help with booking, use the options below.
+          </p>
+
+          <div>
+            <p className='font-semibold text-gray-700'>Emergency Contact</p>
+            <p>📞 911 or local emergency</p>
+          </div>
+
+          <div>
+            <p className='font-semibold text-gray-700'>Support Line</p>
+            <p>📞 (415) 555-0132</p>
+            <p>✉️ prescripto-support@healthcare.com</p>
+          </div>
+
+          <div>
+            <p className='font-semibold text-gray-700'>Quick Help</p>
+            <button className='bg-primary text-white px-6 py-2 rounded hover:bg-primary-dark transition'>
+              Chat with an Assistant
+            </button>
+          </div>
+
+          <div>
+            <p className='font-semibold text-gray-700'>Give Feedback</p>
+            <textarea
+              rows='3'
+              className='w-full p-2 border rounded'
+              placeholder='Tell us how we can improve your experience...'
+            />
+            <button className='mt-2 border border-black px-4 py-2 hover:bg-black hover:text-white transition-all'>
+              Submit Feedback
+            </button>
+          </div>
         </div>
       </div>
-
     </div>
   )
 }
