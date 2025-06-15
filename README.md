@@ -2,7 +2,71 @@
 A doctor appointment website build with mongodb, express, reactjs and nodejs.
 
 # 💡About this project 
-Doctor Appointment website quite useful website. In this project it consists of 3 parts. First one is backend, second one is frontend and last one is admin. You can easly sign up and sign in that page. And then you can see home, all doctors , about and contact page. If you go to the all doctor page you can choose specialization of doctor. If you choose one doctor after doing that immediately will going to the doctor personel page, and then you will choose easely appontment date. If maybe you change you desicion, you should profile page and cancel you appointment. I gave some rights the admin panel. A few of them, add a doctor personel information, graduation, specialization and picture and so on. This website I made three weeks it took quite such a long time but it's very developing myself and learn lots of new things.
+Doctor Appointment website quite useful website. In this project it consists of 3 parts. First one is backend, second one is frontend and last one is admin. You can easly sign up and sign in that page. And then you can see home, all doctors , about and contact page. If you go to the all doctor page you can choose specialization of doctor. If you choose one doctor after doing that immediately will going to the doctor personel page, and then you will choose easely appontment date. If maybe you change you desicion, you should profile page and cancel you appointment. I gave some rights the admin panel. A few of them, add a doctor personel information, graduation, specialization and picture and so on. This website I made three weeks it took quite such a long time, but it's very developing myself and learn lots of new things.
+# 🩺 Priscripto – Doctor Appointment Website
+
+A full-stack Doctor Appointment System built using the MERN stack (MongoDB, Express.js, React.js, Node.js), designed to simplify the booking process between doctors and patients. It includes both a **frontend interface for patients** and an **admin panel** for management.
+
+---
+
+## 💡 Project Overview
+
+The application offers **two types of access**:
+
+### 👤 Patient (Frontend)
+Patients can:
+- Register or log in securely
+- Browse doctors by **specialization** (e.g., Neurology, Cardiology)
+- View **top-rated doctors**
+- Book an appointment in available time slots
+- Cancel or reschedule bookings via the **profile page**
+- Access **Home**, **About**, and **Contact** pages
+
+### 🛠️ Admin (Admin Panel)
+Admins can:
+- Add, update, or delete **doctor profiles** (name, qualification, image, specialization)
+- View all **registered doctors**
+- View all **appointments**
+- Track recent bookings and platform activity
+
+This project allowed me to strengthen my full-stack skills, practice database modeling, secure authentication, and responsive UI development.
+
+---
+
+## ⚙️ Technologies Used
+
+- **Frontend**: React.js, Tailwind CSS, Axios, React Router, React Toastify  
+- **Backend**: Node.js, Express.js, MongoDB, JWT Authentication  
+- **Database**: MongoDB Atlas / Local MongoDB  
+- **Other Tools**: Vite, Cloudinary (for image upload)
+
+---
+
+## 🛠️ Project Structure
+
+doctor-appointment-website/
+│
+├── backend/ # Express backend with MongoDB models and APIs
+├── frontend/ # Patient-side React UI
+└── admin/ # Admin-side React UI
+
+---
+
+## 🧪 Installation & Run Locally
+
+### ✅ Prerequisites
+- Node.js & npm
+- MongoDB (local or MongoDB Atlas)
+- Vite
+
+---
+
+### 1️⃣ Backend Setup
+
+```bash
+cd backend
+npm install
+npm run server
 
 ## ⚡Technologies
 * `MONGODB`
